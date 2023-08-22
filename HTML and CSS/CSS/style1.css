@@ -1,0 +1,162 @@
+.hy{
+    text-align: center;
+    text-transform: capitalize ;
+    color: yellow;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+#outer{
+    font-size: 25px;
+    width: 150px;
+
+}
+
+#inner{
+    font-size: 10px;
+    height: 20px;
+}
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    /* border: 50px solid blanchedalmond; */
+    /* border-style: solid;
+    border-radius: 100px;
+    border-color: black ;
+    padding: 30px;
+    margin: 5px;
+} */ 
+.box{
+    height: 370px;
+    width: 150px;
+    background-color: black;
+    margin: auto;
+}
+
+.traffic{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    margin: auto;
+
+
+
+}
+
+.traffic1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(225, 250, 6);
+    border-radius: 50%;
+    margin: auto;
+
+
+}
+
+.traffic2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(30, 255, 0);
+    border-radius: 50%;
+    margin: auto;
+
+
+}
+
+/* *{
+    padding: 0;
+    margin-right: 0;
+    color: beige;
+}
+
+#navbar{
+    height: 60px;
+    background-color:black;
+    
+    /* width: 100px;
+    border: 10px; */
+/* }
+button{
+    background-color:rgba(255, 187, 0, 0.76);
+}
+#logo{
+    color: orange;
+    font-size: 30px;
+}
+a{
+    margin-right: 180px;
+    text-decoration: none;
+    padding: 10px;
+} */
+/* div{
+    height: 100px;
+    width: 100px;
+    display: block/none/inline/inline-block;
+} */
+
+/* div{
+    visibility:hidden;
+} */
+/* #content{
+    color : red;
+}
+.id1{
+    color: brown;
+}
+#box1{
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+    background-color: black;
+}
+#box2{
+    background-color: aqua;
+    height: 50px;
+    width: 30%;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5em; 
+} */
+
+div{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    color: bisque;
+}
+
+#box1{
+    position: static;
+    right: 300px;
+    background-color: #da0c0c;
+    
+}
+#box2{
+    position: relative;
+    background-color: blue;
+    top: 40px;
+}
+#box3{
+    
+    position: absolute;
+    background-color: blueviolet;
+    left: 20px; 
+}
+#box4{
+    position: fixed;
+    background-color: chartreuse;
+    width: 100vw;
+    top: 0px;
+    right:0px;
+}
+#box5{
+    position: sticky;
+    left: 0%;
+    background-color: coral;
+}

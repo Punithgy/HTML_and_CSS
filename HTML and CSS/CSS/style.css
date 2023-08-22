@@ -1,0 +1,70 @@
+/* h1 {
+  color: rgb(50, 79, 47);
+}
+
+p {
+  color: crimson;
+}
+
+button {
+  color: darkred;
+  background-color: aqua;
+}
+
+bo {
+  /* background-color: rgb(200,255,0);*/ /*rgb color system; */
+  /* background-color: #0000ff;
+} */
+/* 
+#css1 {
+  color: coral;
+}
+
+#css2 {
+  color: gold;
+}
+
+.myclass {
+  color: #f4c491;
+}
+
+#hello {
+    color : blue;
+}
+
+/* h6 {
+    color: rgba(127, 220, 20, 0.781);
+} */
+
+.box {
+    color:red;
+    background-color: blue;
+}
+
+.h1{
+    color: blueviolet;
+}
+.h2{
+    color:darkturquoise;
+}
+
+#h5{
+    color: darkslateblue;
+}
+
+.btn{
+    color:lawngreen;
+}
+
+#cls{
+    color:blue;
+}
+
+.lorem{
+    text-align: center;
+    text-decoration: line-through /* overline ,underline*/
+}
+
+a{
+    text-decoration: none;
+}

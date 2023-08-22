@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar_logo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url('amzon_logo.webp');
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+.border {
+  border: 2px solid transparent;
+}
+
+.border:hover {
+  border: 2px solid white;
+}
+
+/* box2 */
+.add-first {
+  color: #cccccc;
+  font-size: 1rem;
+  margin-left: 15px;
+}
+
+.add-second {
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 5px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* box3 */
+.nav-search {
+  display: flex;
+  background-color: #0f1111;
+  justify-content: space-evenly;
+  width: 620px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.search-select {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 50px;
+  background-color: #f3f3f3;
+  text-align: center;
+  border: none;
+}
+
+.search-input {
+  width: 550px;
+  font-size: 1rem;
+  border: none;
+}
+
+.search-icon {
+  background-color: rgb(235, 104, 10);
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+}
+
+.nav-search:hover {
+  border: 2px solid rgb(243, 83, 25);
+}
+
+/* box4*/
+
+span {
+  font-size: 0.7rem;
+}
+
+.nav-account {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* box5 */
+
+span {
+  font-size: 0.85rem;
+}
+
+.nav-orders {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* box6*/
+
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* container */
+
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: #cccccc;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-option p {
+  display: inline;
+  margin: 15px;
+}
+
+.panel-option {
+  width: 70%;
+  font-size: 0.85rem;
+  font-weight: 200;
+}
+
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* hero-section */
+
+.hero-section {
+  background-image: url(image1.jpg);
+  height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  background-color: #cccccc;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.hero-msg a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* shop-section */
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin: 10px;
+}
+
+.box-img {
+  height: 300px;
+  background-size: cover;
+  width: 280px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box-container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box-container p {
+  color: #007185;
+}
+
+/* footer */
+.footer {
+  margin: 15px;
+}
+
+.footer-box1 {
+  height: 50px;
+  background-color: #37475a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.footer-box2 {
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul {
+  margin-top: 20px;
+}
+ul p {
+  font-weight: 600;
+}
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+.footer-box3 {
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  width: 1000px;
+  height: 68px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  background-image: url('amzon_logo.webp');
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang {
+  height: 34px;
+  width: 135px;
+  font-size: 0.85em;
+  margin-left: 20px;
+  border: 1.5px solid wheat;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* footer box4*/
+
+.footer-box4 {
+  background-color: #0f1111;
+  color: white;
+  height: 60px;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.pages {
+  padding-top: 15px;
+}
+
+.copyright {
+  padding: 5px;
+}
